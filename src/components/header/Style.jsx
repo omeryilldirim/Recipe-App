@@ -20,7 +20,7 @@ export const HeaderForm = styled.form`
   gap: 0.5rem;
   padding: 0.2rem;
   border-radius: 5px;
-  outline: 1px solid antiquewhite;
+  outline: 1px solid ${({theme})=>theme.colors.tertiary};
   outline-offset: 0.1rem;
   & *{
     padding: 0.4rem;
