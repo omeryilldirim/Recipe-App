@@ -19,7 +19,6 @@ const Home = () => {
     const url = "https://api.edamam.com/api/recipes/v2?type=public"
     setLoading(true)
     setError(false)
-    console.log("getting results")
     try {
       const {data:{hits:data}} = await axios(`${url}&q=${query}&mealType=${mealType}&app_id=${apiId}&app_key=${apiKey}`)
       setLoading(false)
