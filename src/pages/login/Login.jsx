@@ -13,7 +13,7 @@ const Login = ({ setIsLoggedIn }) => {
     if(username === users[0].username && password === users[0].password){
       setIsLoggedIn(true);
       console.log("logged in true");
-      navigate("/about");
+      navigate("/");
     } else{
       alert("Invalid username or password!")
     }
