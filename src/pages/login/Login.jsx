@@ -12,6 +12,7 @@ const Login = ({ setIsLoggedIn }) => {
   const handleLogin = () => {
     if(username === users[0].username && password === users[0].password){
       setIsLoggedIn(true);
+      console.log("logged in true");
       navigate("/");
     } else{
       alert("Invalid username or password!")
