@@ -22,7 +22,9 @@ const Home = () => {
     try {
       const {data:{hits:data}} = await axios(`${url}&q=${query}&mealType=${mealType}&app_id=${apiId}&app_key=${apiKey}`)
       setLoading(false)
+      console.log("loading worked")
       setData(data)
+      console.log("setdata worked")
       data.length || setError(true)
     } catch (error) {
       alert(error)
