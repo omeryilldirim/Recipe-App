@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import meal2 from "../../assets/meal2.svg";
 import { LoginForm, LoginDiv, LoginPage } from "./Style";
 import users from "../../utils/users"
@@ -7,13 +7,12 @@ import users from "../../utils/users"
 const Login = ({ setIsLoggedIn }) => {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleLogin = () => {
     if(username === users[0].username && password === users[0].password){
       setIsLoggedIn(true);
-      console.log("logged in true");
-      // navigate("/");
+      navigate("/");
     } else{
       alert("Invalid username or password!")
     }
