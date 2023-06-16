@@ -48,6 +48,10 @@ export const RecipeDiv= styled.div`
     border: none;
     border-radius: 5px;
     background-color: ${({theme})=>theme.colors.primary};
+
+    &:hover{
+      cursor: pointer;
+    }
   }
   & img{
     border-radius: 8px;
