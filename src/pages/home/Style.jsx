@@ -6,7 +6,7 @@ export const RecipesContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
 `;
 
 

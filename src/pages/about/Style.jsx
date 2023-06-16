@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const AboutSection = styled.section`
-  height: 90vh;
+  height: calc(100vh - 80px);
   padding: 3rem;
   display: flex;
   flex-direction: column;

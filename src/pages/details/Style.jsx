@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
 const DetailPage = styled.div`
-  height: 90vh;
+  height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   gap: 3rem;
   padding:2rem 4rem;
+  background-image: url("https://eatatbento.com/wp-content/uploads/2022/04/Bento-Food-Light-Background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 `;
-
 
 export const TitleSection = styled.section`
   display: flex;
