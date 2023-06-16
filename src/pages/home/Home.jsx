@@ -8,7 +8,7 @@ import loadingGif from "../../assets/loading.gif"
 const Home = () => {
   const [data, setData] = useState([])
   const [query, setQuery] = useState("")
-  const [mealType, setMealType] = useState("breakfast")
+  const [mealType, setMealType] = useState("dinner")
   const [error, setError] = useState(false)
   const [loading, setLoading] = useState(false)
 
