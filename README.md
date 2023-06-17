@@ -13,7 +13,7 @@ password: admin2023
 - HTML, CSS, Styled-Components, ReactJS, Edamam-Recipe-Search-API
 ## Outcome
 
-![Project Snapshot](./public/project-image.png)
+![Project Snapshot](snapshot.gif)
 ## Project Skeleton
 
 ```

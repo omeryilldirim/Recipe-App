@@ -13,7 +13,6 @@ export const RecipesContainer = styled.div`
 export const HomeContainer = styled.div`
   background-color: ${({theme})=>theme.colors.primary};
   background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -30,7 +29,7 @@ export const RecipeDiv= styled.div`
   padding: 0.5rem;
   width: 260px;
   height: 350px;
-  background-color: #f5f5f557;
+  background-color: #f5f5f55a;
   border: 2px solid ${({theme})=>theme.colors.tertiary};
   border-radius: 10px;
   position: relative;

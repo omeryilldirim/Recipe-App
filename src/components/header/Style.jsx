@@ -9,7 +9,7 @@ export const HeaderDiv = styled.div`
     padding: 1.5rem;
     
     & h1{
-      color:${({theme})=> theme.colors.tertiary };;
+      color:${({theme})=> theme.colors.tertiary };
     }
 `;
 

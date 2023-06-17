@@ -57,6 +57,7 @@ export const InfoSection = styled.section`
     flex-direction: column;
     gap: 1.5rem;
     max-width: 400px;
+    min-width: 163px;
     margin: 0.5rem;
   }
 
